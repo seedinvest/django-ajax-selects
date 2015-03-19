@@ -63,6 +63,7 @@ class AutoCompleteSelectWidget(forms.widgets.TextInput):
         self.channel = channel
         self.help_text = help_text
         self.show_help_text = show_help_text
+        self.choices = []
 
     def render(self, name, value, attrs=None):
 
